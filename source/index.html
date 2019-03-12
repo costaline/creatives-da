@@ -16,7 +16,7 @@
 
 <body class="page">
   <header class="page-header">
-    <nav class="main-nav navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="main-nav navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="main-nav__logo-link navbar-brand" href="#">
           <img class="main-nav__logo-img" src="img/main-nav-logo.png" width="79" height="75" alt="logo">
@@ -27,7 +27,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="site-list main-nav__site navbar-nav ml-auto">
-            <li class="site-list__item nav-item active"><a class="site-list__link site-list__active nav-link">Home</a>
+            <li class="site-list__item nav-item active"><a
+                class="site-list__link site-list__link--active nav-link">Home</a>
             </li>
             <li class="site-list__item nav-item"><a class="site-list__link nav-link" href="#">Pages</a></li>
             <li class="site-list__item nav-item"><a class="site-list__link nav-link" href="#">Features</a></li>
@@ -49,9 +50,9 @@
       </div>
     </nav>
     <p class="page-header__title">Creatives</p>
-    <p class="page-header__subtitles">Power by PSDfreebies.com</p>
+    <p class="page-header__subtitle">Power by PSDfreebies.com</p>
     <p class="page-header__text">Scroll Down</p>
-    <a class="page-header__link" href="">img here</a>
+    <a class="page-header__link" href="#"><span class="visually-hidden">Scroll Down</span></a>
   </header>
   <main class="page-main">
     <h1 class="visually-hidden">Creative Digital Agencies</h1>
@@ -61,95 +62,95 @@
         <div class="row">
           <div class="col-lg-12">
             <p class="slogan about__slogan">We Are An Awesome Agency</p>
-            <p class="letter about__logo">W</p>
+            <p class="letter about__letter">W</p>
           </div>
         </div>
         <ul class="about__list row">
-          <li class="about__item feature col-lg-3">
+          <li class="about__item feature feature--one col-lg-3">
             <p class="feature__title">Feature one</p>
             <p class="feature__description">
               Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum
-              faucibus dolor auctor.Donec id elit non mi porta gravida at eget metus.
+              faucibus.
             </p>
           </li>
-          <li class="about__item feature col-lg-3">
+          <li class="about__item feature feature--two col-lg-3">
             <p class="feature__title">Feature two</p>
             <p class="feature__description">
               Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum
-              faucibus dolor auctor.Donec id elit non mi porta gravida at eget metus.
+              faucibus.
             </p>
           </li>
-          <li class="about__item feature col-lg-3">
+          <li class="about__item feature feature--three col-lg-3">
             <p class="feature__title">Feature three</p>
             <p class="feature__description">
               Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum
-              faucibus dolor auctor.Donec id elit non mi porta gravida at eget metus.
+              faucibus.
             </p>
           </li>
-          <li class="about__item feature col-lg-3">
+          <li class="about__item feature feature--four col-lg-3">
             <p class="feature__title">Feature four</p>
             <p class="feature__description">
               Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum
-              faucibus dolor auctor.Donec id elit non mi porta gravida at eget metus.
+              faucibus.
             </p>
           </li>
         </ul>
       </div>
     </section>
     <section class="news">
-      <div class="container-fluid">
-        <h2 class="visually-hidden">News</h2>
-        <ul class="news__list">
-          <li class="news__item row">
-            <div class="col-lg-6 order-1">
-              <time class="news__date" datetime="2016-01-04">
-                Jan 4, 2016 | In Culture
-              </time>
-              <p class="news__title">
-                Akita Inu Dog
-              </p>
-              <p class="news__text">
-                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
-                dolor sit
-                amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
-                faucibus dolor auctor.
-              </p>
-              <p class="news__text">
-                Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit.
-                Sed posuere consectetur
-              </p>
-            </div>
-            <div class="col-lg-6 order-2">
-              <img class="news__picture" src="img/news-1.jpg" width="826" height="474" alt="news-1">
-            </div>
-          </li>
-          <li class="news__item row">
-            <div class="col-lg-6 order-2">
-              <time class="news__date" datetime="2016-01-04">
-                Jan 4, 2016 | In Culture
-              </time>
-              <p class="news__title">
-                Akita Inu Dog
-              </p>
-              <p class="news__text">
-                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
-                dolor sit
-                amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
-                faucibus dolor auctor.
-              </p>
-              <p class="news__text">
-                Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit.
-                Sed posuere consectetur
-              </p>
-            </div>
-            <div class="col-lg-6 order-1">
-              <img class="news__picture" src="img/news-2.jpg" width="826" height="474" alt="news-2">
-            </div>
-          </li>
-        </ul>
-      </div>
+      <!-- <div class="container-fluid"> -->
+      <h2 class="visually-hidden">News</h2>
+      <ul class="news__list">
+        <li class="news__item row no-gutters">
+          <div class="news__left col-lg-6 mr-auto order-1">
+            <time class="news__date" datetime="2016-01-04">
+              Jan 4, 2016 | In Culture
+            </time>
+            <p class="news__title">
+              Akita Inu Dog
+            </p>
+            <p class="news__text">
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
+              dolor sit
+              amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
+              faucibus dolor auctor.
+            </p>
+            <p class="news__text">
+              Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit.
+              Sed posuere
+            </p>
+          </div>
+          <div class="col-lg-6 order-2">
+            <img class="news__picture" src="img/news-1.jpg" width="826" height="474" alt="news-1">
+          </div>
+        </li>
+        <li class="news__item row no-gutters">
+          <div class="news__right col-lg-6 ml-auto order-2">
+            <time class="news__date" datetime="2016-01-04">
+              Jan 4, 2016 | In Culture
+            </time>
+            <p class="news__title">
+              Akita Inu Dog
+            </p>
+            <p class="news__text">
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
+              dolor sit
+              amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
+              faucibus dolor auctor.
+            </p>
+            <p class="news__text">
+              Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit.
+              Sed posuere
+            </p>
+          </div>
+          <div class="col-lg-6 order-1">
+            <img class="news__picture" src="img/news-2.jpg" width="826" height="474" alt="news-2">
+          </div>
+        </li>
+      </ul>
+      <!-- </div> -->
     </section>
     <section class="blog-area">
       <div class="container">
@@ -169,8 +170,7 @@
             <p class="blog__title">Fresh Summer Campaign</p>
             <p class="blog__text">
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
-              dolor sit
-              amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
+              dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
             </p>
           </li>
           <li class="blog blog-area__item col-lg-3">
@@ -178,8 +178,7 @@
             <p class="blog__title">Fresh Summer Campaign</p>
             <p class="blog__text">
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
-              dolor sit
-              amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
+              dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
             </p>
           </li>
           <li class="blog blog-area__item col-lg-3">
@@ -187,8 +186,7 @@
             <p class="blog__title">Fresh Summer Campaign</p>
             <p class="blog__text">
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
-              dolor sit
-              amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
+              dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
             </p>
           </li>
           <li class="blog blog-area__item col-lg-3">
@@ -196,8 +194,7 @@
             <p class="blog__title">Fresh Summer Campaign</p>
             <p class="blog__text">
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
-              dolor sit
-              amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
+              dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
             </p>
           </li>
       </div>
@@ -228,10 +225,8 @@
             <p class="key-feature__title">Akita Inu Dog</p>
             <p class="key-feature__text">
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor
-              sit
-              amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
-              faucibus
-              dolor auctor.
+              sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum
+              faucibus dolor auctor.
             </p>
             <ul class="key-feature__list">
               <li class="key-feature__item">Fully Responsive Design</li>
