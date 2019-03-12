@@ -16,24 +16,32 @@
 
 <body class="page">
   <header class="page-header">
-    <nav class="main-nav">
-      <a class="main-nav__logo-link" href="#">
-        <img class="main-nav__logo-img" src="img/main-nav-logo.png" width="79" height="75" alt="logo">
-      </a>
-      <ul class="site-list main-nav__site">
-        <li class="site-list__item"><a class="site-list__link site-list__active">Home</a></li>
-        <li class="site-list__item"><a class="site-list__link" href="#">Pages</a></li>
-        <li class="site-list__item"><a class="site-list__link" href="#">Features</a></li>
-        <li class="site-list__item"><a class="site-list__link" href="#">Extensions</a></li>
-        <li class="site-list__item"><a class="site-list__link" href="#">Tutorials</a></li>
-        <li class="site-list__item"><a class="site-list__link" href=#>Contact us</a></li>
-      </ul>
-      <ul class="social-list main-nav__social">
-        <li class="social-list__item"><a class="social-list__link" href="#">facebook</a></li>
-        <li class="social-list__item"><a class="social-list__link" href="#">twitter</a></li>
-        <li class="social-list__item"><a class="social-list__link" href="#">skype</a></li>
-        <li class="social-list__item"><a class="social-list__link" href="#">in</a></li>
-      </ul>
+    <nav class="main-nav navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="main-nav__logo-link navbar-brand" href="#">
+          <img class="main-nav__logo-img" src="img/main-nav-logo.png" width="79" height="75" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="site-list main-nav__site navbar-nav ml-auto">
+            <li class="site-list__item nav-item active"><a class="site-list__link site-list__active nav-link">Home</a></li>
+            <li class="site-list__item nav-item"><a class="site-list__link nav-link" href="#">Pages</a></li>
+            <li class="site-list__item nav-item"><a class="site-list__link nav-link" href="#">Features</a></li>
+            <li class="site-list__item nav-item"><a class="site-list__link nav-link" href="#">Extensions</a></li>
+            <li class="site-list__item nav-item"><a class="site-list__link nav-link" href="#">Tutorials</a></li>
+            <li class="site-list__item nav-item"><a class="site-list__link nav-link" href=#>Contact us</a></li>
+          </ul>
+          <ul class="social-list main-nav__social navbar-nav">
+            <li class="social-list__item nav-item"><a class="social-list__link nav-link" href="#"><i class="fab fa-facebook-f"></i><span class="visually-hidden">facebook</span></a></li>
+            <li class="social-list__item nav-item"><a class="social-list__link nav-link" href="#"><i class="fab fa-twitter"></i><span class="visually-hidden">twitter</span></a></li>
+            <li class="social-list__item nav-item"><a class="social-list__link nav-link" href="#"><i class="fab fa-skype"></i><span class="visually-hidden">skype</span></a></li>
+            <li class="social-list__item nav-item"><a class="social-list__link nav-link" href="#"><i class="fab fa-linkedin-in"></i><span class="visually-hidden">linkedin</span></a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <p class="page-header__title">Creatives</p>
     <p class="page-header__subtitles">Power by PSDfreebies.com</p>
@@ -226,6 +234,13 @@
     <p class="page-footer__copyright">&copy; 2016 PSDfreebies.com – All Right Reserved</p>
     <p class="page-footer__design">Design by:<span class="page-footer__icon"></span>PSDFreebies.com</p>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
