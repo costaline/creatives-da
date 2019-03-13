@@ -1,5 +1,6 @@
 .feature {
   position: relative;
+
   padding-top: 170px;
 
   &::before {
@@ -7,8 +8,10 @@
     position: absolute;
     top: 20px;
     left: calc(50% - 133px/2);
+
     width: 133px;
     height: 133px;
+
     background-color: #2e85aa;
     border-radius: 50%;
   }
@@ -18,37 +21,47 @@
     position: absolute;
     top: 70px;
     left: calc(50% - 34px/2);
+
     width: 34px;
     height: 34px;
   }
 
   &--one::after{
     left: calc(50% - 34px/2);
+
     width: 34px;
+
     background-image: url('../img/feature-1.png');
   }
 
   &--two::after{
     left: calc(50% - 34px/2);
+
     width: 34px;
+
     background-image: url('../img/feature-2.png');
   }
 
   &--three::after{
     left: calc(50% - 35px/2);
+
     width: 35px;
+
     background-image: url('../img/feature-3.png');
   }
 
   &--four::after{
     left: calc(50% - 30px/2);
+
     width: 30px;
+
     background-image: url('../img/feature-4.png');
   }
 }
 
 .feature__title {
   margin-bottom: 24px;
+  
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
