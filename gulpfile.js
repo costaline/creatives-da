@@ -18,6 +18,7 @@ var uglify = require("gulp-uglify");
 var flatten = require("gulp-flatten");
 var filter = require("gulp-filter");
 var gcmq = require("gulp-group-css-media-queries");
+var imageminMozjpeg = require('imagemin-mozjpeg');
 
 // functions--dev
 function clean() {
@@ -69,6 +70,7 @@ function images() {
     .pipe(imagemin([
       imagemin.optipng({ optimizationLevel: 3 }),
       imagemin.jpegtran({ progressive: true }),
+      imageminMozjpeg({ quality: 75 }),
       imagemin.svgo()
     ]))
     .pipe(gulp.dest("build/img"));
