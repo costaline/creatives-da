@@ -16,3 +16,37 @@
   background-repeat: no-repeat;
   background-position: left center;
 }
+
+@media (max-width: 992px) {
+  .quick-action {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .quick-action__item {
+    padding-top: 105px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-position: center top;
+  }
+}
+
+@media (max-width: 768px) {
+  .quick-action {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .quick-action__item {
+    padding-top: 0px;
+    padding-left: 90px;
+    padding-right: 30px;
+    background-position: left center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .quick-action__item {
+    padding-left: 30px;
+    background-image: none;
+  }
+}
